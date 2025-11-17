@@ -18,8 +18,8 @@ body{
 .header-top{
     display: flex;
     justify-content: space-between;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 18vw;
+    margin-right: 18vw;
 }
 
 .header-links{
@@ -36,8 +36,8 @@ body{
 .header-bottom{
     display: flex;
     justify-content: space-between;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 18vw;
+    margin-right: 18vw;
 }
 
 .hero-main-text{
@@ -69,5 +69,34 @@ a{
     color: white;
     font-size: 18px;
     font-weight: 600;
+}
+
+.random-information{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 50px;
+    margin-left: 18vw;
+    margin-right: 18vw;
+}
+
+.random-header{
+    align-self: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.random-pieces{
+    display: flex;
+    justify-content: center;
+    gap:25px;
+}
+
+.piece{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 5px;
 }
 
